@@ -1,12 +1,12 @@
 {
-    "name": "nunomaduro/skeleton-php",
-    "description": "A skeleton repository for my packages",
+    "name": "ryangjchandler/bytes",
+    "description": "A class to help convert bytes into other units (kb, mb, etc).",
     "keywords": ["php", "skeleton", "package"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Nuno Maduro",
-            "email": "enunomaduro@gmail.com"
+            "name": "Ryan Chandler",
+            "email": "support@ryangjchandler.co.uk"
         }
     ],
     "require": {
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "NunoMaduro\\SkeletonPhp\\": "src/"
+            "RyanChandler\\Bytes\\": "src/"
         }
     },
     "autoload-dev": {
