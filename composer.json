@@ -1,7 +1,7 @@
 {
     "name": "ryangjchandler/bytes",
     "description": "A class to help convert bytes into other units (kb, mb, etc).",
-    "keywords": ["php", "skeleton", "package"],
+    "keywords": ["php", "bytes", "package"],
     "license": "MIT",
     "authors": [
         {
@@ -37,7 +37,7 @@
     "scripts": {
         "lint": "php-cs-fixer fix -v",
         "test:lint": "php-cs-fixer fix -v --dry-run",
-        "test:types": "phpstan analyse --ansi --memory-limit=0",
+        "test:types": "phpstan analyse --ansi",
         "test:unit": "pest --colors=always",
         "test": [
             "@test:lint",

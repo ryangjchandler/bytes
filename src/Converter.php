@@ -8,12 +8,11 @@ class Converter
 
     public const BYTES_IN_KB = 1000;
 
-    public function __construct(
-        protected int | float $subject
-    ) {
-    }
+    final public function __construct(
+        protected int|float $subject
+    ) {}
 
-    public static function from(int|float $subject)
+    public static function from(int|float $subject): static
     {
         return new static($subject);
     }
