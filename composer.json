@@ -35,8 +35,8 @@
         "preferred-install": "dist"
     },
     "scripts": {
-        "lint": "php-cs-fixer fix -v",
-        "test:lint": "php-cs-fixer fix -v --dry-run",
+        "lint": "php-cs-fixer fix",
+        "test:lint": "php-cs-fixer fix --dry-run",
         "test:types": "phpstan analyse --ansi",
         "test:unit": "pest --colors=always",
         "test": [
